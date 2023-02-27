@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .header{
+    width: 100vw;
+    height: 19vh;
+    background-color: #042940;
+  }
+  .flitlogo{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    height: 18vh;
+  }
+  body{
+    background-color: #EEEEEE;
+  }
+  .contents{
+      margin-left: 20vw;
+      width: 60vw;
+      height: 81vh;
+      background-color: #D9D9D9D9;
+    }
+
+  .input, .span1{
+    text-align: center;
+  }
+  .inputs {
+      visibility: hidden;
+  }
+  .buttonCheck {
+    width: 3.6vw;
+    float: left;
+    height: 3vh;
+    margin-left: 2vw;
+    
+  }
+
+  .span2 {
+    text-align: center;
+    margin-top: 15vh;
+  }
+
+  .formCheckBox {
+    margin-top: 5vh;
+    display: inline-block;
+  }
+
+  .checks {
+    float: left;
+    margin-right: 0.5vw;
+    margin-left: 5vw;
+  }
+
+  .checks label>input {
+    visibility: hidden;
+    height: 0vh;
+    width: 0vw;
+  }
+
+  .checks label>input+img {
+    display: inline-block;
+    cursor: pointer;
+    width: 3.5vw;
+    margin-left: 0.5vw;
+  }
+
+  .submit {
+    width: 30vw;
+    height: 8vh;
+  }
+
+  .submitButton {
+    margin-top: 20vh;
+    width: 30vw;
+    height: 8vh;
+    background-color: #042940;
+    margin-left: 15vw;
+    color: whitesmoke;
+    cursor: pointer;
+  }
